@@ -64,6 +64,7 @@
 		a{
 			float: right;
 			margin-top: 13px;
+			margin-right: 0.5em;
 			line-height: 20px;
 			background: #397CAC;
 			padding: .5em 1em;
@@ -102,6 +103,17 @@
 	}
 }
 
+.button{
+		
+	color: #397CAC;
+	border: 1px solid #397CAC;
+	padding: .5em 1em;
+	border-radius: 0.2em;
+	text-decoration: none;
+	margin-right: 2%;
+			
+}
+
 #post_content{
 	background: white;
 	padding: 2em 5%;
@@ -119,5 +131,58 @@
 		font-size: 0.9rem;
 		font-weight: 100;
 		line-height: 1.5rem;
+	}
+}
+
+#comments{
+	.comment{
+		border-bottom: 1px solid #d1d1d1;
+		padding-bottom: 1em;
+		margin-bottom: 1em;
+		.content{
+			width: 75%;
+			float: left;
+		}
+		.buttons{
+			width: 25%;
+			float: left;
+			font-size: 0.8em;
+			text-align: right;
+			padding-top: 1.5em;
+			a{
+				color: #397CAC;
+				border: 1px solid #397CAC;
+				padding: .5em 1em;
+				border-radius: 0.2em;
+				text-decoration: none;
+				margin-right: 2%;
+			}
+		}
+		.comment_content{
+			margin: 0;
+			padding: 0;
+		}
+		.comment_author{
+			color: #397CAC;
+			margin-top: .5rem;
+			font-size: 0.6rem;
+			font-weight: 700;
+
+		}
+	}
+	input[type='submit']{
+		background: #397CAC;
+		border:none;
+		color: white;
+		font-weight: 100;
+		padding: .5em 1em;
+		border-radius: .2em;
+	}
+	textarea{
+		width: 100%;
+		min-height: 150px;
+		border: 1px solid #d1d1d1;
+		border-radius: .2em;
+		margin: 1em 0;
 	}
 }
